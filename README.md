@@ -1,16 +1,41 @@
-# inventory_main
+# Inventory Management App (Flutter)
 
-A new Flutter project.
+## 📱 Project Description
+A fully offline Inventory Management mobile application built using Flutter.
+The app helps small shop owners manage products, track stock, and record sales.
 
-## Getting Started
+## 🚀 Features
+- Splash Screen with Auto Login
+- Login & Register (Local)
+- Product Management (Add, Edit, Delete)
+- Inventory Dashboard
+- Low Stock Alerts
+- Sales Management (Auto Stock Reduction)
+- Settings (Clear Data, Logout)
+- Offline Storage using SharedPreferences
 
-This project is a starting point for a Flutter application.
+## 🧱 Architecture
+- MVC Architecture
+- GetX State Management
+- GetX Routing
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tech Stack
+- Flutter
+- Dart
+- GetX
+- SharedPreferences
+- Git & GitHub
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📂 Folder Structure
+lib/
+├── controllers/
+├── models/
+├── services/
+├── routes/
+├── views/
+└── main.dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧪 How to Run
+```bash
+flutter pub get
+flutter run
